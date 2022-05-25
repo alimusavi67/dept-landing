@@ -5,6 +5,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
     min-height: 100%;
     height: 100%;
+    font-size: 10px;
   }
   *,
   *:after,
@@ -12,11 +13,13 @@ export default createGlobalStyle`
     box-sizing: inherit;
   }
   body {
-    font-family: sans-serif;
+    font-family: Teko;
     padding: 0;
     margin: 0;
     -webkit-font-smoothing: antialiased;
-    margin-top: 50px;
     background: white;
+  }
+  button {
+      border: none;
   }
   `;
