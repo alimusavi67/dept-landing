@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+const Container = styled.div`
+    width: 100%;
+`
+
 const Wrapper = styled.div`
     height: 54px;
     background: transparent;
@@ -41,4 +45,4 @@ const MenuWrapper = styled.div`
     }
 `
 
-export {Wrapper, LogoWrapper, MenuWrapper};
+export {Wrapper, LogoWrapper, MenuWrapper, Container};

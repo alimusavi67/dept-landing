@@ -5,6 +5,11 @@ const Home = () => {
     return (<div>
         <Header />
         <TopSection />
+        <TopSection />
+        <TopSection />
+        <TopSection />
+        <TopSection />
+        <TopSection />
     </div>)
 }
 export default Home;
