@@ -9,7 +9,7 @@ const Wrapper = styled.section`
   flex-direction: column;
   @media (max-width: 768px) {
     margin-top: 56px;
-    height: 360px;
+    height: auto;
   }
 `;
 const WrapperWithBackImg = styled.div`
@@ -33,6 +33,9 @@ const StyledH1 = styled.h1`
   margin: 0;
   @media (max-width: 768px) {
     font-size: 17rem;
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    font-size: 27rem;
   }
 `;
 const DesktopBtnWrapper = styled.div`

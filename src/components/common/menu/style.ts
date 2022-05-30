@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Wrapper = styled.div`
+const Wrapper = styled.nav`
     width: 100;
     background: #000000;
     height: 100vh;
